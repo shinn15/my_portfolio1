@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px 20px #0ff;
+  }
+
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.container input[type="text"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+.container input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+/*for mobile*/
+@media (max-width: 480px) {
+    .container {
+      margin-top: 50px;
+    }
+  }
+
+  /* Style for paragraph element in register link */
+.register-link p {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+/* Style for anchor element in register link */
+.register-link a {
+    color: #134994; 
+    text-decoration: none; 
+    border-bottom: 2px solid #134994; 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
+.popuperr{
+    max-width: 300px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    position: relative;
+    bottom: 400px;
+    opacity: 0.8;
+
+}
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: yellowgreen;
+    margin: 20px ;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
